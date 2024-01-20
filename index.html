@@ -15,7 +15,7 @@
     height: 100vh;
     margin: 0;
     padding: 20px;
-    flex-wrap: wrap; /* Permite que los botones se ajusten según el ancho de la pantalla */
+    flex-wrap: wrap; 
   }
   .button {
     border: none;
@@ -29,20 +29,16 @@
     align-items: center;
   }
   .button img {
-    height: 100px;
+    height: 120px;
     width: auto;
     margin-right: 10px;
   }
 
-  .central-image {
-    max-width: 100%; /* Asegura que la imagen sea responsive */
-    height: auto;
-    margin-bottom: 20px; /* Espacio entre la imagen y los botones */
-  }
 
   /* Estilos para pantallas pequeñas (por ejemplo, teléfonos móviles) */
   @media (max-width: 600px) {
     body {
+      
       flex-direction: column; /* Cambia a columna en pantallas pequeñas */
     }
     .button {
@@ -50,8 +46,8 @@
       justify-content: center;
     }
     .button img {
-      height: 70px;
-      margin-right: 0;
+      height: 100px;
+      margin-right: 25px;
       margin-bottom: 5px;
     }
   }
