@@ -1,69 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Registro Benicatrail</title>
-<link rel="icon" href="icon.ico" type="image/x-icon">
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    background: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    padding: 20px;
-    flex-wrap: wrap; 
-  }
-  .button {
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    margin: 10px;
-    cursor: pointer;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-  }
-  .button img {
-    height: 120px;
-    width: auto;
-    margin-right: 10px;
-  }
-
-
-  /* Estilos para pantallas pequeñas (por ejemplo, teléfonos móviles) */
-  @media (max-width: 600px) {
-    body {
-      
-      flex-direction: column; /* Cambia a columna en pantallas pequeñas */
-    }
-    .button {
-      width: 100%; /* Hace que los botones ocupen todo el ancho */
-      justify-content: center;
-    }
-    .button img {
-      height: 100px;
-      margin-right: 25px;
-      margin-bottom: 5px;
-    }
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Benicatrail</title>
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 </head>
-<body>
+<body class="d-flex justify-content-center align-items-center vh-100">
+        <div class="d-flex justify-content-center row">
+            <a href="https://inscripciones.mychip.es/es/evento/benicatrail-2023" class="col-sm btn btn-light mx-2" target="_blank">
+                <img src="path_to_your_mychip_logo.jpg" alt="MyChip" class="img-fluid" style="max-height: 120px;">
+            </a>
+            <a href="https://www.instagram.com/benicatrail/" class="col-sm btn btn-light mx-2" target="_blank">
+                <img src="path_to_your_instagram_logo.png" alt="Instagram" class="img-fluid" style="max-height: 120px;">
+            </a>
+            <a href="https://www.facebook.com/p/Benicatrail-100094498620398/" class="col-sm btn btn-light mx-2" target="_blank">
+                <img src="path_to_your_facebook_logo.png" alt="Facebook" class="img-fluid" style="max-height: 120px;">
+            </a>
+        </div>
+    </div>
 
-<a href="https://www.mychip.es" class="button" target="_blank">
-  <img src="path_to_your_mychip_logo.jpg" alt="MyChip">
-</a>
-<a href="https://www.instagram.com" class="button" target="_blank">
-  <img src="path_to_your_instagram_logo.png" alt="Instagram">
-</a>
-<a href="https://www.facebook.com" class="button" target="_blank">
-  <img src="path_to_your_facebook_logo.png" alt="Facebook">
-</a>
-
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
